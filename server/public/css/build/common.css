@@ -68,12 +68,13 @@ label {
   background: #dfdfdf;
   color: #de8b29;
 }
-/*[auth]{display: none!important;}*/
-.tmp_content{
-  width:300px;
+.hidden {
+  display: none;
 }
-.tmp_content >[class$=_temp] >*{
-    border-bottom: 1px dashed #ddd;
-        padding: 1em 0;
+.tmp_content {
+  width: 300px;
 }
-.hidden{display: none;}
+.tmp_content >[class$=_temp] >* {
+  border-bottom: 1px dashed #ddd;
+  padding: 1em 0;
+}
